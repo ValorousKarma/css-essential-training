@@ -1,3 +1,48 @@
+/* 
+SCSS HEX
+$buff: #d8a48fff;
+$cambridge-blue: #92c9b1ff;
+$prussian-blue: #13293dff;
+$glaucous: #7389aeff;
+$cordovan: #764248ff;
+*/
+/* Global styles
+-----------------------------*/
+body {
+    color: #13293dff;
+    font-family: 'Lucida Console';
+}
+pre {
+    white-space: pre-line;
+}
+
+pre, p, ul {
+    font-size: 14px;
+}
+
 img {
     width: 300px;
 }
+
+
+/* Profile
+-----------------------------*/
+
+
+
+/* Projects
+-----------------------------*/
+
+
+
+/* Work Experience
+-----------------------------*/
+
+
+
+/* Education
+-----------------------------*/
+
+
+/* Contact info
+-----------------------------*/

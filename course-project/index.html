@@ -10,43 +10,44 @@
         <main>
             <!-- ***********************  ABOUT / PROFILE  *********************** -->
             <header>
-                <h1>Your Name</h1>
-                <h2>Job title or tagline</h2>
-
-                <p>
-                    Add your profile copy here. Add more paragraphs or links as
-                    needed. Here is some dummy text: Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Praesent bibendum, diam ut
-                    gravida efficitur, risus neque scelerisque erat, ut rhoncus
-                    erat odio ac justo. Nunc scelerisque vestibulum augue, sit
-                    amet hendrerit ante.
-                </p>
-                <p>Add another paragraph if needed.</p>
+                <h1>Dylan Michalak</h1>
+                <h2>Undergraduate CS Student</h2>
+                <pre>
+                    A student seeking to gain experience in security and software development.
+                    
+                    My Personal hobbies include cooking, PC gaming, and rock climbing.
+                    
+                    <a href="https://github.com/ValorousKarma">Personal github</a>
+                    <a href="https://github.com/DylanMCPP">School github</a>
+                </pre>
             </header>
 
             <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-            <section>
+            <section class="projects">
                 <h2>Featured Projects</h2>
-                <p>
-                    Optional paragraph for the Projects summary. Delete if not
-                    being used.
+                <p class="projects header">
+                    My current interests for personal projects are: full stack
+                    web development, offensive cybersecurity, ethical malware
+                    creation and analysis, and incorporating AI features.
                 </p>
 
                 <!-- Copy the whole <section> block to add more projects. -->
-                <section>
-                    <h3>Project Name</h3>
+                <section class="project">
+                    <h3>Windows executable RAT</h3>
                     <img
-                        src="images/thumbnail-1.jpg"
+                        class="project thumbnail"
+                        src="images/thumbnail-RAT.jpg"
                         alt="description of image"
                     />
-                    <p>
-                        I'm not actually making a website for this course, so
-                        this project is just a placeholder with a Panda
-                        thumbnail.
-                        <br />
-                        Oh boy, I love learning frontend.
+                    <p class="project description">
+                        Programming the server and backdoor executable for a
+                        demo Remote Access Trojan. Functionality includes
+                        establishing a reverse shell for remote code execution
+                        and spawning a keylogger.
                     </p>
-                    <a href="#" target="_blank">View project / case study</a>
+                    <a class="project link" href="#" target="_blank">
+                        View Project Repo
+                    </a>
                 </section>
                 <!-- End of Project block. -->
             </section>
@@ -54,26 +55,32 @@
             <!-- ***********************  WORK EXPERIENCE  *********************** -->
             <section>
                 <h2>Work Experience</h2>
-                <p>
-                    Optional paragraph for work experience summary. Not a part
-                    of the job details. Delete if not being used.
-                </p>
-
                 <!-- Copy this whole <section> block to add more jobs. -->
                 <section>
-                    <h3>Job title</h3>
-                    <p>Company Name</p>
-                    <p>Date at job</p>
+                    <h3>Student Video Producer</h3>
+                    <p>MediaVision - Cal Poly Pomona</p>
+                    <p>February 2023 -> Current</p>
                     <p>
-                        Job summary goes here. Add as many paragraphs as you
-                        need.
+                        Production of video and audio media, as well as IT
+                        support, for Cal Poly Pomona.
                     </p>
-                    <p>Optional list:</p>
+                    <p>Roles:</p>
                     <ul>
-                        <li>Delete this list if you don't need it.</li>
-                        <li>Created...</li>
-                        <li>Lead...</li>
-                        <li>Responsible for...</li>
+                        <li>
+                            Management and setup of video and audio equipment.
+                        </li>
+                        <li>
+                            Created video content for social media - Instagram,
+                            TikTok.
+                        </li>
+                        <li>
+                            Correspondence with faculty and use of ticketing
+                            system.
+                        </li>
+                        <li>
+                            Responsible for creating new video series for school
+                            social accounts.
+                        </li>
                     </ul>
                 </section>
                 <!-- End of Job block. -->
@@ -85,9 +92,44 @@
 
                 <!-- Copy this whole <section> block to add more schools. -->
                 <section>
-                    <h3>School name - City</h3>
-                    <p>Designation received or program name, year attended</p>
-                    <p>Summary or accomplishments.</p>
+                    <h3>California State Polytechnic University, Pomona</h3>
+                    <h4>B.S. Computer Science: 2021 - Current</h4>
+                    <ul>
+                        <li>
+                            <h5>
+                                SWIFT: Students With an Interest in Future of
+                                Technology
+                            </h5>
+                            <ul>
+                                <li>
+                                    SWIntern 2023-2024 - Project & Workshop
+                                    leading, collaboration.
+                                </li>
+                                <li>
+                                    CPTC Bootcamp 2023 - Comprehensive pen
+                                    testing skills for Linux, Windows, web apps.
+                                </li>
+                                <li>
+                                    CCDC Bootcamp 2023 - Securing networks and
+                                    computer systems in a business environment.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h5>Sigma Phi Epsilon Fraternity</h5>
+                            <ul>
+                                <li>
+                                    Ruck Leadership Institute 2023 - General
+                                    leadership and collaboration skills to
+                                    enhance any organization.
+                                </li>
+                                <li>
+                                    Standards Board 2023 - Organization
+                                    policy-making and standards enforcement.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </section>
                 <!-- End of School block. -->
             </section>
@@ -99,14 +141,15 @@
                 <!-- Social media and contact links. Add or remove any networks. -->
                 <ul>
                     <li>
-                        <a href="mailto:email@example.com">email@example.com</a>
+                        <a href="dylandevmail@gmail.com"
+                            >Send me a professional inquiry</a
+                        >
                     </li>
                     <li>
                         <a href="http://yourwebsite.com" target="_blank"
                             >yourwebsite.com</a
                         >
                     </li>
-                    <li><a href="#" target="_blank">Twitter</a></li>
                     <li><a href="#" target="_blank">LinkedIn</a></li>
                     <li><a href="#" target="_blank">Facebook</a></li>
                 </ul>
