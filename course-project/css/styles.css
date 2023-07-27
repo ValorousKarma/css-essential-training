@@ -24,20 +24,47 @@ img {
     width: 300px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 
 /* Profile
 -----------------------------*/
+header {
+    background: #764248ff;
+    color: #d8a48fff;
+}
 
 
 
 /* Projects
 -----------------------------*/
+.projects {
+    background: #d8a48fff;
+}
 
+.projects a {
+    color: #d8a48fff;
+    background: #764248ff;
+}
+
+.projects .btn {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background: rgba(118, 66, 72, .8);
+}
 
 
 /* Work Experience
 -----------------------------*/
-
+.work-experience {
+    background: #92c9b1ff;
+}
 
 
 /* Education
@@ -46,3 +73,11 @@ img {
 
 /* Contact info
 -----------------------------*/
+footer {
+    background: #7389aeff;
+}
+
+footer a {
+    color: #7389aeff;
+    background: #13293dff;
+}
