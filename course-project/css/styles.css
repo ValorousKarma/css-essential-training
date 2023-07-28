@@ -1,4 +1,4 @@
-/* 
+/* COLORS
 SCSS HEX
 $buff: #d8a48fff;
 $cambridge-blue: #92c9b1ff;
@@ -6,21 +6,20 @@ $prussian-blue: #13293dff;
 $glaucous: #7389aeff;
 $cordovan: #764248ff;
 */
+
 /* Global styles
 -----------------------------*/
 body {
     color: #13293dff;
-    font-family: 'Lucida Console';
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
 }
 pre {
     white-space: pre-line;
     margin: 0;
-}
-
-pre, p, ul {
-    font-size: 14px;
 }
 
 img {
@@ -37,17 +36,48 @@ a:hover {
     padding: 60px 0;
 }
 
+h1 {
+    font-size: 4rem;
+    line-height: 1.25;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Tektur', cursive;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+    margin: 0.5rem;
+}
+
+h3, h4, h5 {
+    font-weight: 600;
+    line-height: 1;
+}
+
+
+
 /* Profile
 -----------------------------*/
 header {
     background: #764248ff;
     color: #d8a48fff;
 }
-
-h1, h2 {
-    margin-top: 0;
-}
-
 
 
 /* Projects
