@@ -11,9 +11,12 @@ $cordovan: #764248ff;
 body {
     color: #13293dff;
     font-family: 'Lucida Console';
+    margin: 0;
+    padding: 0;
 }
 pre {
     white-space: pre-line;
+    margin: 0;
 }
 
 pre, p, ul {
@@ -28,12 +31,21 @@ a:hover {
     text-decoration: none;
 }
 
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
 
 /* Profile
 -----------------------------*/
 header {
     background: #764248ff;
     color: #d8a48fff;
+}
+
+h1, h2 {
+    margin-top: 0;
 }
 
 
@@ -53,6 +65,7 @@ header {
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 
 .projects .btn:hover {
