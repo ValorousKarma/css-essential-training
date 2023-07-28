@@ -84,6 +84,7 @@ h3, h4, h5 {
 /* Profile
 -----------------------------*/
 header {
+    text-align: center;
     background: #764248ff;
     color: #d8a48fff;
 }
@@ -146,9 +147,21 @@ header {
 -----------------------------*/
 footer {
     background: #7389aeff;
+    text-align: center;
 }
 
 footer a {
-    color: #7389aeff;
-    background: #13293dff;
+    color: #13293dff;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
 }
