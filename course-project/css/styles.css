@@ -9,6 +9,15 @@ $cordovan: #764248ff;
 
 /* Global styles
 -----------------------------*/
+
+/* Box Model Fix */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     color: #13293dff;
     margin: 0;
@@ -91,6 +100,10 @@ header {
     background: #764248ff;
 }
 
+.projects p, .projects h2, .projects h3 {
+    color: #764248ff;
+}
+
 .projects .btn {
     text-decoration: none;
     padding: 8px;
@@ -100,6 +113,21 @@ header {
 
 .projects .btn:hover {
     background: rgba(118, 66, 72, .8);
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 2px dashed #764248ff;
+    padding: 25px 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item .title {
+    margin-top: 0;
 }
 
 
