@@ -138,6 +138,12 @@ header {
     background: #92c9b1ff;
 }
 
+.job-item {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 20px;
+}
+
 
 /* Education
 -----------------------------*/
