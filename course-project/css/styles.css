@@ -63,6 +63,13 @@ h1, h2 {
 
 h3 {
     font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+/* REMOVE PADDING FROM SUBHEADERS AND AROUND LISTS - work experience & education */
+h3 ~ h4, h3 ~ ul {
+    padding: 0;
+    margin: 0;
 }
 
 h4 {
@@ -71,12 +78,20 @@ h4 {
 
 h5 {
     font-size: 1.1rem;
-    margin: 0.5rem;
 }
 
 h3, h4, h5 {
     font-weight: 600;
-    line-height: 1;
+}
+
+.divider > section {
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+    border-bottom: none;
 }
 
 
@@ -118,8 +133,7 @@ header {
 
 .project-item {
     overflow: hidden;
-    border-bottom: 2px dashed #764248ff;
-    padding: 25px 0;
+    border-bottom-color: #764248ff;
 }
 
 .project-item img {
@@ -142,6 +156,11 @@ header {
     display: grid;
     grid-template-columns: 2fr 3fr;
     column-gap: 20px;
+    border-bottom-color: #13293dff;
+}
+
+.job-details > p {
+    margin: 0;
 }
 
 
